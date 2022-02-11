@@ -92,9 +92,15 @@ export interface Theme {
 }
 
 export type AgendaEntry = {
+  time: string;
   name: string;
-  height: number;
-  day: string;
+  image: string;
+  email: string;
+  status: string;
+  courseTitle: string;
+  bookedOn: string;
+  description: string;
+  isIncoming: boolean;
 }
 
 export type AgendaSchedule = {
