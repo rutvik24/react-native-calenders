@@ -101,6 +101,7 @@ export type AgendaEntry = {
   bookedOn: string;
   description: string;
   isIncoming: boolean;
+  courseId: number;
 }
 
 export type AgendaSchedule = {
