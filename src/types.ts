@@ -105,6 +105,7 @@ export type AgendaEntry = {
   scheduleOn: string;
   scheduleTime: string;
   preferredPlatform: any;
+  id: number;
 }
 
 export type AgendaSchedule = {
