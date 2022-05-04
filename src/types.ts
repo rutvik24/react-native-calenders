@@ -102,6 +102,9 @@ export type AgendaEntry = {
   description: string;
   isIncoming: boolean;
   courseId: number;
+  scheduleOn: string;
+  scheduleTime: string;
+  preferredPlatform: any;
 }
 
 export type AgendaSchedule = {

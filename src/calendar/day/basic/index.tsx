@@ -125,7 +125,7 @@ export default class BasicDay extends Component<BasicDayProps> {
     const style: object[] = [this.style.base];
 
     if (this.isSelected()) {
-      style.push(this.style.selected, { borderRadius: 5, backgroundColor: 'black', height: 35});
+      style.push(this.style.selected, { borderRadius: 5, backgroundColor: 'black', height: 45});
       if (selectedColor) {
         style.push({backgroundColor: selectedColor});
       }
