@@ -28,6 +28,18 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  "files": [
+    "src",
+    "scripts",
+    ".editorconfig",
+    "babel.config.js",
+    "detox.config.js",
+    "LICENSE",
+    "pom.xml",
+    "README.md",
+    "tsconfig.json",
+    "package.json"
+  ],
   "author": "Wix.com",
   "license": "MIT",
   "dependencies": {
